@@ -15,7 +15,7 @@ body {
   min-height: 100vh;
   background-color: #1e315c;
   color: #fff;
-  padding-top: 80px; 
+  padding-top: 80px;
 }
 
 
@@ -27,22 +27,23 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap; 
   padding: 20px 40px;
   background-color: #ffffff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 header h2 {
-   font-size: 1.5rem;
-   font-weight: 500;
+  font-size: 1.5rem;
+  font-weight: 500;
+  word-break: break-word;
 }
 
 header h2 a {
-   text-decoration: none;
-   color: #0A192F;
-   font-weight: 500;
+  text-decoration: none;
+  color: #0A192F;
+  font-weight: 500;
 }
-
 
 nav {
   display: flex;
@@ -60,12 +61,10 @@ nav a:hover {
   color: #CBD5E1;
 }
 
-
 main.conteudo {
   flex: 1;
   padding: 60px 20px 40px;
 }
-
 
 section.sobre {
   max-width: 1100px;
@@ -84,11 +83,19 @@ section.sobre h3 {
   text-align: center;
 }
 
-section.sobre p {
+.sobre-conteudo {
+  background-color: #ffffff;
+  color: #1e315c;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: justify;
+}
+
+.sobre-conteudo p {
   font-size: 18px;
   line-height: 1.6;
 }
-
 
 footer {
   margin-top: auto;
