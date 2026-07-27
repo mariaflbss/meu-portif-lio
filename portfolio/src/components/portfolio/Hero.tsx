@@ -31,7 +31,7 @@ export function Hero() {
             style={{ animationDelay: "200ms" }}
           >
             <a
-              href="/meu-portifolio-/curriculo-maria-fernanda-laboissiere.pdf"
+              href="/meu-portifolio-/curriculo.mariafernandalaboissiere.pdf"
               download
               className="group inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3.5 text-sm font-medium text-primary-foreground shadow-elegant transition-all hover:-translate-y-0.5 hover:shadow-deep"
             >
